@@ -18,7 +18,6 @@ void insertionSortInt(int arr_name[], int arr_len)
 		}
 		arr_name[counter_inner] = card_to_insert;									//jeœli nasza karta jest wiêksza ni¿ porównywana to dajemy j¹ na to miejsce
 	}
-
 }
 
 void insertionSortFloat(float arr_name[], int arr_len)
