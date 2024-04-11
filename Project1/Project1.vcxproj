@@ -131,6 +131,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="insertionSort.cpp" />
+    <ClCompile Include="InsetionSort.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="SortStrategy.cpp" />
+    <ClCompile Include="Table.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InsetionSort.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="SortStrategy.h" />
+    <ClInclude Include="Table.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Desktop\meow.txt" />
+    <Text Include="three.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
